@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodle 4.1 Aktivitätsicons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 20px;
+        }
+        .icon-item {
+            text-align: center;
+        }
+        .activityiconcontainer {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+        }
+        .activityicon {
+            width: 24px;
+            height: 24px;
+            filter: brightness(0) invert(1);
+        }
+        .activityiconcontainer.assign { background-color: rgb(235, 102, 162); }
+        .activityiconcontainer.quiz { background-color: rgb(235, 102, 162); }
+        .activityiconcontainer.forum { background-color: rgb(247,99,77); }
+        .activityiconcontainer.chat { background-color: #e99c52; }
+        .activityiconcontainer.choice { background-color: rgb(17, 166, 118); }
+        .activityiconcontainer.data { background-color: rgb(247,99,77); }
+        .activityiconcontainer.feedback { background-color: rgb(17, 166, 118); }
+        .activityiconcontainer.glossary { background-color: rgb(247,99,77); }
+        .activityiconcontainer.lesson { background-color: rgb(57, 155, 226); }
+        .activityiconcontainer.scorm { background-color: rgb(57, 155, 226); }
+        .activityiconcontainer.survey { background-color: rgb(17, 166, 118); }
+        .activityiconcontainer.wiki { background-color: rgb(247, 99, 77); }
+        .activityiconcontainer.workshop { background-color: rgb(235, 102, 162); }
+        .activityiconcontainer.book { background-color: rgb(57, 155, 226); }
+        .activityiconcontainer.lti { background-color: rgb(57, 155, 226); }
+        .activityiconcontainer.page { background-color: rgb(57,155, 226); }
+        .materialiconcontainer {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+        }
+        .materialicon {
+            width: 24px;
+            height: 24px;
+            filter: brightness(0) invert(1);
+        }
+        .materialiconcontainer.file { background-color: rgb(57, 155, 226); }
+        .materialiconcontainer.folder { background-color: rgb(57, 155, 226); }
+        .materialiconcontainer.url { background-color: rgb(57,155, 226); }
+        .materialiconcontainer.book { background-color: rgb(57, 155, 226); }
+        .materialiconcontainer.page { background-color: rgb(57,155, 226); }
+    </style>
+</head>
+<body>
+    <h1>Moodle 4.1 Aktivitätsicons</h1>
+    <div class="icon-grid">
+        <div class="icon-item">
+            <div class="activityiconcontainer assign">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/assign/pix/monologo.svg" alt="Aufgabe" class="activityicon">
+            </div>
+            <p>Aufgabe</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer quiz">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/quiz/pix/monologo.svg" alt="Test" class="activityicon">
+            </div>
+            <p>Test</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer forum">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/forum/pix/monologo.svg" alt="Forum" class="activityicon">
+            </div>
+            <p>Forum</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer chat">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/chat/pix/monologo.svg" alt="Chat" class="activityicon">
+            </div>
+            <p>Chat</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer choice">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/choice/pix/monologo.svg" alt="Abstimmung" class="activityicon">
+            </div>
+            <p>Abstimmung</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer data">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/data/pix/monologo.svg" alt="Datenbank" class="activityicon">
+            </div>
+            <p>Datenbank</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer feedback">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/feedback/pix/monologo.svg" alt="Feedback" class="activityicon">
+            </div>
+            <p>Feedback</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer glossary">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/glossary/pix/monologo.svg" alt="Glossar" class="activityicon">
+            </div>
+            <p>Glossar</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer lesson">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/lesson/pix/monologo.svg" alt="Lektion" class="activityicon">
+            </div>
+            <p>Lektion</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer scorm">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/scorm/pix/monologo.svg" alt="SCORM-Paket" class="activityicon">
+            </div>
+            <p>SCORM-Paket</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer survey">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/survey/pix/monologo.svg" alt="Umfrage" class="activityicon">
+            </div>
+            <p>Umfrage</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer wiki">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/wiki/pix/monologo.svg" alt="Wiki" class="activityicon">
+            </div>
+            <p>Wiki</p>
+        </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer workshop">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/workshop/pix/monologo.svg" alt="Workshop" class="activityicon">
+            </div>
+            <p>Workshop</p>
+        </div>
+        
+        <!-- Neue Icons für Moodle 4.1 -->
+        <div class="icon-item">
+            <div class="activityiconcontainer lti">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/lti/pix/monologo.svg" alt="Externes Tool" class="activityicon">
+            </div>
+            <p>Externes Tool</p>
+        </div>
+    </div>
+
+    <h1>Materialien</h1>
+    <div class="icon-grid">
+        <div class="icon-item">
+            <div class="materialiconcontainer file">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/resource/pix/monologo.svg" alt="Datei" class="materialicon">
+            </div>
+            <p>Datei</p>
+        </div>
+        <div class="icon-item">
+            <div class="materialiconcontainer folder">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/folder/pix/monologo.svg" alt="Verzeichnis" class="materialicon">
+            </div>
+            <p>Verzeichnis</p>
+        </div>
+        <div class="icon-item">
+            <div class="materialiconcontainer url">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/url/pix/monologo.svg" alt="URL" class="materialicon">
+            </div>
+            <p>URL</p>
+        </div>
+        <div class="icon-item">
+            <div class="materialiconcontainer book">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/book/pix/monologo.svg" alt="Buch" class="materialicon">
+            </div>
+            <p>Buch</p>
+        </div>
+        <div class="icon-item">
+            <div class="materialiconcontainer page">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/page/pix/monologo.svg" alt="Textseite" class="materialicon">
+            </div>
+            <p>Textseite</p>
+        </div>
+    </div>
+</body>
+</html>
