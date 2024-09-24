@@ -48,6 +48,21 @@
         .activityiconcontainer.book { background-color: rgb(57, 155, 226); }
         .activityiconcontainer.lti { background-color: rgb(57, 155, 226); }
         .activityiconcontainer.page { background-color: rgb(57,155, 226); }
+        .activityiconcontainer.unilabel { background-color: rgb(57,155, 226); }
+        .activityiconcontainer.label { background-color: rgb(57,155, 226); }
+        .activityiconcontainer.lightboxgallery { background-color: rgb(57,155, 226); }
+        .activityiconcontainer.learningmap { background-color: rgb(57, 155, 226); }
+        .activityiconcontainer.realtimequiz {
+            background-color: rgb(22, 112, 204);
+            padding: 4px;
+            overflow: hidden;
+        }
+        .activityiconcontainer.realtimequiz img {
+            width: calc(100% - 8px);
+            height: calc(100% - 8px);
+            object-fit: contain;
+            filter: none !important;
+        }
         .materialiconcontainer {
             display: inline-flex;
             align-items: center;
@@ -66,6 +81,25 @@
         .materialiconcontainer.url { background-color: rgb(57,155, 226); }
         .materialiconcontainer.book { background-color: rgb(57, 155, 226); }
         .materialiconcontainer.page { background-color: rgb(57,155, 226); }
+        .activityiconcontainer.imscp { background-color: rgb(57, 155, 226); }
+        .activityiconcontainer.customcert { background-color: rgb(22, 112, 204); }
+        .activityiconcontainer.checklist { background-color: rgb(235, 102, 162); }
+        .activityiconcontainer.geogebra { background-color: rgb(235, 102, 162); }
+        .activityiconcontainer.ratingallocate { background-color: rgb(93, 99, 246); }
+        .activityiconcontainer.hotpot {
+            background-color: rgb(235, 102, 162);
+            padding: 4px;
+            overflow: hidden;
+        }
+        .activityiconcontainer.hotpot img {
+            width: calc(100% - 8px);
+            height: calc(100% - 8px);
+            object-fit: contain;
+            filter: none !important;
+        }
+        .activityiconcontainer.h5pactivity { background-color: rgb(57, 155, 226); }
+        .activityiconcontainer.pdfannotator { background-color: rgb(17, 166, 118); }
+        .activityiconcontainer.vpl { background-color: rgb(235, 102, 162); }
     </style>
 </head>
 <body>
@@ -157,6 +191,112 @@
             </div>
             <p>Externes Tool</p>
         </div>
+        <div class="icon-item">
+            <div class="activityiconcontainer imscp">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/imscp/pix/monologo.svg" alt="IMS Content-Package" class="activityicon">
+            </div>
+            <p>IMS Content-Package</p>
+        </div>
+
+        <!-- Neues BigBlueButton-Icon -->
+        <div class="icon-item">
+            <div style="border: 1px solid black;" class="activityiconcontainer bigbluebuttonbn">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/bigbluebuttonbn/pix/monologo.svg" alt="BigBlueButton">
+            </div>
+            <p>BigBlueButton</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer unilabel">
+                <img src="unilabel/monologo.svg" alt="Universelles Textfeld" class="activityicon">
+            </div>
+            <p>Universelles Textfeld</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer label">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/label/pix/monologo.svg" alt="Textfeld" class="activityicon">
+            </div>
+            <p>Text- und Medienfeld</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer lightboxgallery">
+                <img src="lightboxgallery/monologo.svg" alt="Lightbox Galerie" class="activityicon">
+            </div>
+            <p>Lightbox Galerie</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer customcert">
+                <img src="customcert/monologo.svg" alt="Benutzerdefiniertes Zertifikat" class="activityicon">
+            </div>
+            <p>Benutzerdefiniertes Zertifikat</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer learningmap">
+                <img src="learningmap/monologo.svg" alt="Lernlandkarte" class="activityicon">
+            </div>
+            <p>Lernlandkarte</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer realtimequiz">
+                <img src="realtimequiz/icon.gif" alt="Echtzeitbefragung" class="activityicon">
+            </div>
+            <p>Echtzeitbefragung</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer checklist">
+                <img src="checklist/monologo.svg" alt="Fortschrittsliste" class="activityicon">
+            </div>
+            <p>Fortschrittsliste</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer geogebra">
+                <img src="geogebra/monologo.svg" alt="Geogebra" class="activityicon">
+            </div>
+            <p>Geogebra</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer ratingallocate">
+                <img src="ratingallocate/monologo.svg" alt="Gerechte Verteilung" class="activityicon">
+            </div>
+            <p>Gerechte Verteilung</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer hotpot">
+                <img src="hotpot/icon.svg" alt="HotPot" class="activityicon">
+            </div>
+            <p>HotPot</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer h5pactivity">
+                <img src="https://raw.githubusercontent.com/moodle/moodle/MOODLE_401_STABLE/mod/h5pactivity/pix/monologo.svg" alt="H5P" class="activityicon">
+            </div>
+            <p>H5P</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer pdfannotator">
+                <img src="pdfannotator/monologo.svg" alt="PDF-Annotation" class="activityicon">
+            </div>
+            <p>PDF-Annotation</p>
+        </div>
+
+        <div class="icon-item">
+            <div class="activityiconcontainer vpl">
+                <img src="vpl/monologo.svg" alt="Virtual Programming Lab" class="activityicon">
+            </div>
+            <p>Virtual Programming Lab</p>
+        </div>
+
     </div>
 
     <h1>Materialien</h1>
