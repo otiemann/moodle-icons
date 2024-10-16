@@ -4,7 +4,7 @@ Dieses Repository enthält eine Übersicht aller Moodle-Aktivitätsicons.
 
 ## Projektbeschreibung
 
-Dieses Projekt bietet eine visuelle Darstellung und Referenz für alle Aktivitätsicons, die in Moodle verwendet werden. Es dient als nützliches Hilfsmittel für Moodle-Administratoren, Kursersteller und Entwickler, die einen schnellen Überblick über die verfügbaren Icons benötigen.
+Dieses Projekt bietet eine visuelle Darstellung und Referenz für alle Aktivitätsicons, die in Moodle verwendet werden. Es dient als nützliches Hilfsmittel für Moodle-Administratoren, Kursersteller und Entwickler, die einen schnellen Überblick über die verfügbaren Icons benötigen. Im Feature-Branche feat/inline-style wurde absichtlich ausschließlich inline-style verwendet, um das Kopieren und Einfügen der Icons in andere Projekte zu ermöglichen.
 
 ## Projektstruktur
 
