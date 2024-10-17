@@ -9,6 +9,7 @@ Dieses Projekt bietet eine visuelle Darstellung und Referenz für alle Aktivitä
 ## Projektstruktur
 
 - `index.html`: Die Hauptseite des Projekts, die alle Moodle-Aktivitätsicons anzeigt
+- `inline.html`: Die Seite enthält ein Beispiel für die Verwendung der Icons in einem einfachen HTML-Dokument
 
 ## Nutzung
 
